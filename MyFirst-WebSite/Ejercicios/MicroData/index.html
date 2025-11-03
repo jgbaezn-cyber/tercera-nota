@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ejemplo de Microdatos: Artículo con Fragmentos Enriquecidos</title>
+  </head>
+  <body style="font-family: Arial, sans-serif; margin: 40px; line-height: 1.6;">
+    <article itemscope itemtype="http://schema.org/Article">
+      <header>
+        <h1 itemprop="headline">Energías Renovables: El Futuro de un Planeta Sostenible</h1>
+        <p><time itemprop="datePublished" datetime="2025-11-02">01 de Noviembre de 2025</time></p>
+        <p>Por <span itemprop="author">Jerix Baez</span></p>
+      </header>
+
+      <img 
+        src="https://tse4.mm.bing.net/th/id/OIP.sSUWQOGIx64xoUJ_Jo5PrAHaD8?rs=1&pid=ImgDetMain&o=7&rm=3"
+        itemprop="image" 
+        alt="Paneles solares y turbinas ecológicas" 
+        width="600"
+        style="border-radius: 10px; display: block; margin: 20px auto;">
+
+      <p itemprop="articleBody">
+        Las energías renovables están transformando la forma en que obtenemos electricidad. 
+        Cada vez más países invierten en tecnologías limpias como la solar y la eólica, 
+        que no solo ayudan al medio ambiente, sino que también generan empleos sostenibles.
+      </p>
+
+      <footer style="margin-top: 20px;">
+        <p>Categorías: <span itemprop="articleSection">Medio Ambiente, Tecnología Verde</span></p>
+        <p itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+          Publicado por: <span itemprop="name">EcoNoticias</span>
+        </p>
+      </footer>
+    </article>
+  </body>
+</html>
